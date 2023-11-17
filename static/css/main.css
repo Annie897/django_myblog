@@ -1,0 +1,120 @@
+h1 {
+    color: red;
+}
+
+.container {
+    padding: 20px 0 20px;
+}
+
+.navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.container-image > img {
+    max-height: 500px;
+    max-width: 100%;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fotorama__wrap {
+    margin: 0 auto;
+}
+
+@import
+url('https://fonts.googleapis.com/css?family=Ubuntu');
+@media (max-width: 480px) {
+ h1 {
+ font-size: 18px;
+ }
+}
+
+div > h1 {
+ color: #fff;
+ font-family: 'Ubuntu', sans-serif;
+}
+body > div > nav > div > a > h4 {
+color: white;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+body > div > nav > div > a {
+    text-decoration: none;
+}
+.article-block {
+ background: #fff;
+ color: #383838;
+ font-family: 'Ubuntu', sans-serif;
+ box-shadow: 2px 2px 1px #ccc;
+ padding: 10px;
+ margin: 10px;
+ margin-top: 20px;
+}
+.article-block a {
+ color: blue;
+ font-family: 'Ubuntu', sans-serif;
+ text-decoration: none;
+}
+
+body {
+    background: url('../img/bg.jpg') center/cover;
+    background-repeat: repeat-y;
+}
+
+.article-content {
+    text-align: justify;
+}
+
+.article-pub-date {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.all-publications {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+
+.category {
+    color: white;
+    text-align: center;
+}
+
+.item-pub-date {
+    font-style: italic;
+    font-size: 12px;
+    color: lightgrey;
+}
+
+.item-category {
+    color: white;
+    text-decoration:none;
+}
+
+.item-content{
+    color: lightgrey;
+}
+
+.articles-row {
+    margin-top: 25px;
+}
+
+.fotorama {
+    margin-top: 30px;
+}
+
+.breadcrumb > li > a{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.breadcrumb {
+margin-top: 30px;
+    margin-bottom: 50px;
+}
